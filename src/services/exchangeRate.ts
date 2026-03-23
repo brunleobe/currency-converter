@@ -1,6 +1,6 @@
 import type { ExchangeRates } from '../types/currency';
 
-const API_BASE_URL = 'https://api.exchangerate-api.com/v4/latest';
+const API_BASE_URL = 'https://v6.exchangerate-api.com/v6/7ae6d6cfc38c9ef228f054d4/latest/USD';
 
 export const fetchExchangeRates = async (baseCurrency: string): Promise<ExchangeRates> => {
   try {

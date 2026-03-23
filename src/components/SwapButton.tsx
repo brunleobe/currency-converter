@@ -8,7 +8,7 @@ export default function SwapButton({ onClick }: Props) {
       onClick={onClick}
       className="bg-gray-200 px-3 py-1 rounded"
     >
-      🔄
+      to
     </button>
   );
 }
